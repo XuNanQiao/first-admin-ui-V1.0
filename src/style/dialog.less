@@ -1,0 +1,65 @@
+.dialog-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.alert-box {
+  position: absolute;
+  width: 700px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 4px;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+}
+.alert-top {
+  height: 80px;
+  background: url("../assets/image/alertTop.png")
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 30px;
+  .tit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .closeIcon {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background: url("../assets/image/close.png")
+    no-repeat;
+    background-size: cover;
+  }
+}
+.alert-content{
+  max-height: calc(89vh - 30px);
+  overflow:hidden;
+  overflow-y:auto;
+  .selectBox {
+    margin: 28px 0px 0;
+    padding: 0 60px 30px;
+    .evertModule {
+      display: flex;
+      align-items: center;
+      margin:0 0 30px;
+      position: relative;
+      .name {
+        width: 120PX;
+        padding-right: 12px;
+        text-align: right;
+        color: #333;
+      }
+    }
+  }
+}
+.btn-row {
+  //margin: 15px 100px 20px;
+    margin: 60px 0;
+    padding: 0 76px;
+    display: flex;
+}

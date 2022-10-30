@@ -1,0 +1,63 @@
+// 去掉验证前面的*
+.el-form-item.is-required .el-form-item__label:before,
+.el-icon-upload:before {
+  content: "" !important;
+}
+
+.el-select,
+.el-input {
+  width: 100%;
+
+  .el-input__inner {
+    height: 46px;
+  }
+}
+
+.el-pagination {
+  text-align: left;
+
+  .el-input__inner {
+    height: auto;
+  }
+}
+
+.el-form-item__label {
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.el-table th>.cell {
+  color: #999;
+  font-weight: bolder;
+}
+
+//时间插件
+.el-picker-panel__footer .el-button--text.el-picker-panel__link-btn {
+  display: none;
+}
+
+.el-input__prefix,
+.el-date-editor .el-input__suffix {
+  top: 3px;
+}
+
+// 组织结构行间距
+.el-tree-node__content {
+  margin: 5px 0;
+}
+
+// 组织结构字体
+.el-tree-node__label {
+  font-size: @font20;
+}
+
+.el-input__icon {
+  font-size: 16PX !important;
+}
+
+.el-button:focus, .el-button:hover {
+  border-color: #DCDFE6;
+  background-color: #FFF;
+}

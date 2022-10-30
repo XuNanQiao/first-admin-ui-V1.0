@@ -1,0 +1,56 @@
+@import './reset.less';
+@import './font.less';
+@import './btn.less';
+@import './flex.less';
+@import './dialog.less';
+@import './message.less';
+@import './elementui.less';
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+// 下拉框字体重置
+.el-select-dropdown__item {
+    span {
+        font-size: @font14;
+    }
+}
+
+.el-input__inner {
+    font-size: @font18;
+}
+
+.el-form-item__error {
+    font-size: @font16;
+}
+
+/*页面一级标题*/
+.mainTitle {
+    font-size: @font20;
+    color: @c333;
+}
+
+/*表格标题*/
+.tableHeader {
+    color: @c999;
+}
+
+/*主题内容字体*/
+.mainContent {
+    font-size: @font18;
+    color: @c666;
+}
+/*错误提示问题*/
+.errTip{
+    font-size:@font16;
+    color:red;
+}
+//分页
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
